@@ -1,6 +1,9 @@
 *.sh
+*.md
 .circleci
 .git
 .gitignore
 .vs
 .vscode
+Dockerfile
+LICENSE

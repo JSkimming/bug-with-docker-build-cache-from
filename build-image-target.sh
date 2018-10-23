@@ -30,3 +30,5 @@ exe docker build . --target stage3 -t tag-stage3 \
 
 exe docker build . --target stage4 -t tag-stage4 \
 --cache-from tag-stage4 --cache-from tag-stage3 --cache-from tag-stage2 --cache-from tag-stage1
+
+exe docker image list
