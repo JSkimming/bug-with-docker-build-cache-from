@@ -1,0 +1,6 @@
+*.sh
+.circleci
+.git
+.gitignore
+.vs
+.vscode
